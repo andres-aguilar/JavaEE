@@ -39,6 +39,12 @@ public class Course implements Serializable {
 	public Course() {
 	}
 	
+	public Course(String name, String themes, String project) {
+		this.name = name;
+		this.themes = themes;
+		this.project = project;
+	}
+	
 	public Course(String name, String themes, String project, Teacher teacher) {
 		this.name = name;
 		this.themes = themes;
